@@ -31,7 +31,7 @@
     "test": "check-build && tsc && istanbul cover _mocha"
   },
   "dependencies": {
-    "validate-vat": "0.9.0",
+    "@mlecoq/validate-vat-ts": "1.3.0",
     "jsvat": "2.5.3",
     "ein-validator": "1.0.1"
   },
