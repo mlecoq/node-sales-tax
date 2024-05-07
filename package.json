@@ -25,13 +25,14 @@
   "main": "lib/sales_tax.js",
   "types": "types/sales_tax.d.ts",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 14"
   },
   "scripts": {
     "test": "check-build && tsc && istanbul cover _mocha"
   },
   "dependencies": {
-    "@mlecoq/validate-vat-ts": "1.3.0",
+    "cross-fetch": "4.0.0",
+    "@mlecoq/validate-vat-ts": "1.3.1",
     "jsvat": "2.5.3",
     "ein-validator": "1.0.1"
   },
