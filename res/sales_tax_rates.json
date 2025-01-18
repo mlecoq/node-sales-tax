@@ -5,6 +5,12 @@
     "rate": 0.05
   },
 
+  "AD": {
+    "type": "vat",
+    "currency": "EUR",
+    "rate": 0.045
+  },
+
   "AI": {
     "type": "gst",
     "currency": "XCD",
@@ -332,8 +338,8 @@
       },
 
       "GC": {
-        "rate": -0.21,
-        "type": "vat"
+        "rate": -0.14,
+        "type": "igic"
       },
 
       "ML": {
@@ -342,8 +348,8 @@
       },
 
       "TF": {
-        "rate": -0.21,
-        "type": "vat"
+        "rate": -0.14,
+        "type": "igic"
       }
     }
   },
@@ -351,7 +357,15 @@
   "FI": {
     "type": "vat",
     "currency": "EUR",
-    "rate": 0.24
+    "rate": 0.255,
+
+    "before": {
+      "2024-08-31T22:00:00.000Z": {
+        "type": "vat",
+        "currency": "EUR",
+        "rate": 0.24
+      }
+    }
   },
 
   "FR": {
@@ -437,7 +451,15 @@
   "IL": {
     "type": "vat",
     "currency": "ILS",
-    "rate": 0.17
+    "rate": 0.18,
+
+    "before": {
+      "2024-12-31T22:00:00.000Z": {
+        "type": "vat",
+        "currency": "ILS",
+        "rate": 0.17
+      }
+    }
   },
 
   "IM": {
@@ -815,7 +837,15 @@
   "SK": {
     "type": "vat",
     "currency": "EUR",
-    "rate": 0.2
+    "rate": 0.23,
+
+    "before": {
+      "2024-12-31T22:00:00.000Z": {
+        "type": "vat",
+        "currency": "EUR",
+        "rate": 0.2
+      }
+    }
   },
 
   "SR": {

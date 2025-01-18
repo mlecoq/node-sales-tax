@@ -1699,11 +1699,11 @@ describe("node-sales-tax", function() {
         return SalesTax.getAmountWithSalesTax("ES", "GC", 1000.00)
           .then(function(tax) {
             assert.equal(
-              tax.type, "vat", "Tax type should be VAT"
+              tax.type, "igic", "Tax type should be IGIC"
             );
 
             assert.equal(
-              tax.rate, 0.00, "Tax rate should be 0%"
+              tax.rate, 0.07, "Tax rate should be 7%"
             );
 
             assert.equal(
@@ -1719,7 +1719,7 @@ describe("node-sales-tax", function() {
             );
 
             assert.equal(
-              tax.charge.direct, false, "Should perform a direct charge"
+              tax.charge.direct, true, "Should perform a direct charge"
             );
 
             assert.equal(
@@ -1731,11 +1731,11 @@ describe("node-sales-tax", function() {
             );
 
             assert.equal(
-              tax.total, 1000.00, "Total amount should be 1000.00"
+              tax.total, 1070.00, "Total amount should be 1070.00"
             );
 
             assert.equal(
-              tax.details.length, 0, "Tax details should be empty"
+              tax.details.length, 1, "Tax details should contain 1 tax rate"
             );
           });
         });

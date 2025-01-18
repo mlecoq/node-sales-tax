@@ -1,6 +1,31 @@
 Changelog
 =========
 
+## 2.18.0 (2025-01-06)
+
+### Tax Rate Updates
+
+* **Israel**: 17% to 18% (1st January 2025) [[@valeriansaliou](https://github.com/valeriansaliou), [46d696d](https://github.com/valeriansaliou/node-sales-tax/commit/46d696d1ed2da701cac049c23c9bf2e51db1b1f7)].
+
+## 2.17.0 (2025-01-01)
+
+### Tax Rate Updates
+
+* **Slovakia**: 20% to 23% (1st January 2025) [[@valeriansaliou](https://github.com/valeriansaliou), [f141689](https://github.com/valeriansaliou/node-sales-tax/commit/f141689fea598f199b0c7a6318cc6aa970d8ff75)].
+* Add tax entries for: Andorra [[@Kikobeats](https://github.com/Kikobeats), [#74](https://github.com/valeriansaliou/node-sales-tax/pull/74)].
+
+## 2.16.0 (2024-09-18)
+
+### Bug Fixes
+
+* Switched from `node-fetch` to `cross-fetch` to address an incompatible dependency issue starting in NodeJS 22 [[@mlecoq](https://github.com/mlecoq), [#67](https://github.com/valeriansaliou/node-sales-tax/pull/67)].
+
+## 2.15.0 (2024-09-02)
+
+### Tax Rate Updates
+
+* **Finland**: 24% to 25.5% (1st September 2024) [[@brennofaneco](https://github.com/brennofaneco), [#69](https://github.com/valeriansaliou/node-sales-tax/pull/69)].
+
 ## 2.14.0 (2024-02-16)
 
 ### Tax Rate Updates
